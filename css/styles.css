@@ -35,7 +35,6 @@ h1,h2,h3{
 /* color-white section  */
 
 .color-section{
-
   background-color: #ff4c68;
   color: #fff;
 }
@@ -49,7 +48,7 @@ h1,h2,h3{
 
 .navbar{
   /* top right bottom left */
-  padding: 0 0 4.5rem 0;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand{
@@ -166,6 +165,7 @@ padding:3% 2%;
   font-size: 1.5rem;
 }
 
+/* CTA Section */
 
 /*fotter section */
 
@@ -174,11 +174,12 @@ padding:3% 2%;
 }
 
 
-@media (max-width:1028px){
+@media (max-width: 1028px){
 
   #title{
     text-align: center;
   }
+
   .title-image{
   position: static;
   /* re rotate to straight up*/
